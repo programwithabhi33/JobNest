@@ -1,12 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-// import Header from './components/Header'
 import Home from './pages/Home'
 import './App.css'
-import AuthCard from './components/AuthCard'
+// import AuthCard from './components/AuthCard'
 import Header from './components/Header'
-import Companies from './components/Companies'
-import About from './components/About'
-import PostJob from './components/PostJob'
+import Companies from './pages/Companies'
+import About from './pages/About'
+import PostJob from './pages/PostJob'
 
 function App() {
   return (

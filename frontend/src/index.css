@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 /* Utility classes */
-
 .cursor-pointer{
     cursor: pointer;
 }
