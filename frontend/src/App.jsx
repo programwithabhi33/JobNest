@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/auth" element={<AuthCard />} />
+          {/* <Route path="/auth" element={<AuthCard />} /> */}
           <Route path="/companies" element={<Companies />} />
           <Route path="/about" element={<About />} />
           <Route path="/post-job" element={<PostJob />} />
